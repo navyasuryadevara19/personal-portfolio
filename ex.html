@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Project</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+ 
+        body {
+            background-color: #f4f4f4;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+     
+        .navbar {
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #0f0f; 
+        }
+
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logo h1{
+            color: rgb(15, 96, 96);
+            font-size: 34px;
+        }
+
+       
+        .nav {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center; 
+        }
+
+        .nav-tab {
+            display: flex;
+            list-style: none; 
+        }
+
+        .nav-link {
+            margin-left: 20px;
+            font-size: 18px;
+            color: #333;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #f39c12;
+        }
+        .icon button{
+            padding: 10px 10px;
+            border-radius: 5px;
+            background-color: #0f0f;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+       
+        <div class="logo">
+            <img src="./images/food.jpg" alt="Bakingo Logo">
+            <h1>Bakingo</h1>
+        </div>
+
+        <div class="nav">
+            <ul class="nav-tab">
+                <li class="nav-link">Home</li>
+                <li class="nav-link">About</li>
+                <li class="nav-link">Cakes</li>
+                <li class="nav-link">BDY Accessories</li>
+            </ul>
+        </div>
+
+        <div class="icon">
+          <button><i class="fa fa-user"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>

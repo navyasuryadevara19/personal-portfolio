@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form in HTML5</title>
+</head>
+<body align="center" bgcolor="pink">
+    <h2><u>APPLICATION FORM</u></h2>
+    <table bgcolor="skyblue" align="center" cellspacing="20">
+        <form>
+        <tr>
+            <td>  <label for="">First Name</label></td>
+            <td><input type="text" name="name" placeholder="Enter your first name" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Last Name</label></td>
+            <td><input type="text" name="name" placeholder="Enter your last name" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" name="email"   placeholder="Enter your email" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Mobile Number</label></td>
+            <td><input type="text" pattern="[0-9]{10}" name="number" placeholder="Enter your mobile no" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Date of Birth</label></td>
+            <td><input type="date" name="dob" placeholder="" required></td>
+        </tr>
+        <tr>
+            <td><label for="">Gender</label></td>
+            <td><input type="radio" name="n1" id="">
+            <label for="">Male</label>
+            <input type="radio" name="n1" id="">
+            <label for="">Female</label>
+            <input type="radio" name="n1" id="">
+            <label for="">Others</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Address</label></td>
+            <td><textarea rows="6" cols="25" name="address" placeholder="Enter your Address" required></textarea></td>
+        </tr>
+        <td><label for="">State</label></td>
+            <td><input type="text" name="state"    placeholder="Enter your state" required></td>
+        </tr>
+        <td><label for="">city</label></td>
+            <td><input type="text" name="city" placeholder="Enter your city" required></td>
+        </tr>
+        <td><label for="">Country</label></td>
+            <td><input type="text" name="country" placeholder="Enter your country" required></td>
+        </tr>
+        <td><label for="">Pincode</label></td>
+            <td><input type="text" name="pincode" placeholder="Enter your pincode"></td>
+        </tr>
+        </tr>
+        <td><label for="">Course Applied For</label></td>
+            <td><input type="radio" name="v2" id="">
+                <label for="">BSC</label>
+                <input type="radio" name="v2" id="">
+                <label for="">B.COM</label>
+                <input type="radio" name="v2" id="">
+                <label for="">BCA</label>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"colspan="2">
+                <input type="submit" name="submit" value="submit">
+                <input type="submit" name="submit" value="reset">
+    
+            </td>
+        </tr>
+        </form>
+
+
+    </table>
+    
+</body>
+</html> 
